@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css labq4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Libre+Franklin&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+<title>Table using CSS</title>
+</head>
+<style>
+    body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f0f0f2;
+}
+.top{
+     border: 2px solid lightgrey;
+     background-color:white;
+     margin:50px 15px 10px 15px;   
+     height:600px;    
+}
+.top_2{
+      
+       height: 300px;
+       width:200px;
+       margin-left: 90px; 
+       margin-bottom:80px;
+       position: relative;
+       bottom:60px;
+       right:60px;
+
+}
+.bor_1{
+
+    border-bottom: 1px solid lightgrey;
+    padding-right:40px;
+    padding-bottom:5px;
+}
+
+.top_1{
+
+    font-weight:bolder;
+   word-spacing:7px;
+    position:relative;
+    top:14px;
+    margin-left:32px;
+    color:#0F4C75;
+}   
+
+.llo{
+
+    position: relative;
+    bottom:40px;
+    color: #0F4C75;
+    left:620px;
+
+}
+.search{
+
+    font-family: Arial, Helvetica,FontAwesome, sans-serif;
+    font-size:40px;
+    position:relative ;
+    font-size:14px;
+    left: 1205px;
+    bottom: 83px;
+    padding:5px;
+    border:none;
+    border-bottom:1px solid black;
+
+}
+
+
+
+/****************************/
+/**********Table***********/
+/**************************/
+table{
+
+    color:#0F4C75;
+    border-collapse: collapse;
+
+}
+
+table,th,td{
+
+        border:1px solid lightgrey;
+    
+}
+
+th{
+
+    text-align: left;
+}
+
+
+td{
+
+font: 15px Arial, sans-serif;
+padding:20px 70px 20px 5px;
+
+}
+
+/**************************/
+/******Table padding******/
+
+.tab_1{
+    padding:25px 250px 5px 5px;
+}
+
+.tab_2{
+    padding:10px 250px 10px 5px;
+}
+
+.fon_1{
+    position: relative;
+    left:50px;
+    bottom:19px;
+}
+
+.fon_2{
+    position: relative;
+    left:33px;
+    bottom:19px;
+}
+
+.fon_3{
+        position: relative;
+    left:65px;
+    bottom:19px;
+}
+.tab_3{
+  padding:27px 150px 5px 5px;
+}
+
+.tab_4{
+
+  padding:20px 150px 15px 5px;
+}
+.tab_5{
+    padding:20px 100px 5px 5px;
+    position:relative;
+    top:5px;
+
+}
+.tab_6{
+    padding:20px 100px 10px 5px
+}
+
+
+
+/*icons css */
+.fai_1{
+    color:#1597E5; 
+    font-size:20px;
+    padding-left:10px;
+    letter-spacing: 5px;
+}
+
+.fai_2{
+    color:orange; 
+    font-size:20px;
+  position: relative;
+    left:5px;
+    
+
+}
+
+.fai_3{
+    color:red; 
+    font-size:20px;
+    position: relative;
+    left:15px;
+    
+}
+
+.fai_4{
+    position: relative;
+    left: 600px;
+}
+
+.fai_5{
+  position: relative;
+  left:37px;
+}
+/* icons css*/
+
+
+/*footer*/
+.footer{
+     font-family: Arial, Helvetica, sans-serif;
+    word-spacing:7px;
+    position:relative;
+    top:14px;
+    margin-left:32px;
+    color:#0F4C75;
+}
+.Pagination{
+  font-family: Arial, Helvetica, sans-serif;
+    word-spacing:32px;
+    position:relative ;
+    left: 1000px;
+  bottom:23px;
+}
+
+.page{
+    color:darkgray;
+    text-decoration: none;
+}
+
+
+.page_sel{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  height:25px;
+    color: white;
+  width:25px;
+  padding:15px 20px 15px 20px;
+  background-color:#1597E5; 
+  border-radius: 50%;
+}
+
+
+    
+</style>
+
+<body>
+
+<!-- left top -->
+    <div>
+        <div class="top">
+            <p class="top_1">Show
+            <span id="bor_1">5
+            <i class="fa fa-caret-down fai_5"></i>
+            </span>Entries</p> 
+        
+        <!-- center -->
+         <h1 class="llo">
+         <span style=" font-weight:lighter;">Customer</span><b>Details</b></h1>
+
+          <!-- search box -->
+             <input type="text" class="search" placeholder="search" size="29px">
+            
+    <!-- right top -->
+
+
+    <!-- Tables -->
+    <div class="top_2">
+
+     <table cellpadding="10px">
+        
+        <tr class="tr">
+        
+            <th>#</th>
+            <th class="tab_1">Name<i class="fa fa-fw fa-sort"></i></th>
+            <th class="tab_2">Address</th>
+            <th class="tab_3">City<i class="fa fa-fw fa-sort"></i></th>
+            <th class="tab_4">Pin Code</th>
+            <th class="tab_5">Country<i class="fa fa-fw fa-sort"></i></th>
+            <th class="tab_6">Actions</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thomas Hardy</td>
+            <td>89 Chriaroscuro Rd.</td>
+            <td>Portland</td>
+            <td>97219</td>
+            <td>USA</td>
+        <td>
+            <a href="#"><i class="fas fa-eye fai_1"></i></a>
+            <a href="#"><i class="fas fa-pencil fai_2"></i></a>
+            <a href="#"><i class="fas fa-trash fai_3"></i></a>
+        </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maria Anders</td>
+            <td>Obere Str.57</td>
+            <td>Berlin</td>
+            <td>12209</td>
+            <td>Germany</td>
+        <td>
+            <a href="#"><i class="fas fa-eye fai_1"></i></a>
+            <a href="#"><i class="fas fa-pencil fai_2"></i></a>
+            <a href="#"><i class="fas fa-trash fai_3"></i></a>
+        </td>       
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fran Wilson</td>
+            <td>c/Araquil,67</td>
+            <td>Madrid</td>
+            <td>28023</td>
+            <td>Spain</td>
+        <td>    
+            <a href="#"><i class="fas fa-eye fai_1"></i></a>
+            <a href="#"><i class="fas fa-pencil fai_2"></i></a>
+            <a href="#"><i class="fas fa-trash fai_3"></i></a>
+        </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dominique Perrier</td>
+            <td>25,Rue Lauriston</td>
+            <td>Paris</td>
+            <td>75016</td>
+            <td>Frace</td>
+        <td>    
+            <a href="#"><i class="fas fa-eye fai_1"></i></a>
+            <a href="#"><i class="fas fa-pencil fai_2"></i></a>
+            <a href="#"><i class="fas fa-trash fai_3"></i></a>
+        </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Martin Blank</td>
+            <td>Via Monte Blanco 34</td>
+            <td>Turin</td>
+            <td>10100</td>
+            <td>Italy</td>
+        <td>
+            <a href="#"><i class="fas fa-eye fai_1"></i></a>
+            <a href="#"><i class="fas fa-pencil fai_2"></i></a>
+            <a href="#"><i class="fas fa-trash fai_3"></i></a>
+        </td>
+        </tr>
+
+    </table>
+</div>
+    <!-- Left Bottom -->
+    <p class="footer">Showing <b>5</b> out of <b> 25 </b></p>
+    <!-- Pagination -->
+    <div class="Pagination">
+        <a class="page" href="#">Previous</a>
+        <a class="page" href="#">1</a>
+        <a class="page" href="#">2</a>
+        <a class="page_sel" href="#">3</a>
+        <a class="page" href="#">4</a>
+        <a class="page" href="#">5</a>
+        <a class="page" href="#">Next</a>
+
+</div>
+</div>
+</div>
+</body>
+</html>
